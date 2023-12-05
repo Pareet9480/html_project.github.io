@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Creating order List-->
+    <ol start="" type="A">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Js</li>
+        <li>JAVA</li>
+        <li>Python</li>
+    </ol>
+    <!-- End the order list -->
+
+    <!-- creating a unorderlist -->
+    <ul>
+        <li>Django</li>
+        <li>SQl</li>
+        <li>Reactjs</li>
+        <li>Framework</li>
+    </ul>
+    <!-- End the unoredr List -->
+    <!-- creating a student data  table -->
+    <table border="3px" width="150%">
+         <tr>
+            <th>Sl No</th>
+            <th>Student Name</th>
+            <th>Father Name</th>
+            <th>Contect Number</th>
+            <th>Address</th>
+        </tr>
+        <tr align="center">
+            <td>01.</td>
+            <td>Sainath Patil</td>
+            <td>Bhimanagoud</td>
+            <td>+91-9876543210</td>
+            <td>At Kannolli Tq:Sindagi Dist: Vijayapur KARNATAK-586128</td>
+        </tr>
+        <tr align="center" >
+            <td>02.</td>
+            <td>Laxman Chavan</td>
+            <td>Valasing</td>
+            <td></td>
+            <td>At post: Koarawar Tq: Sindagi Dist: Vijayapur KARNATAK-586128</td>
+        </tr>
+        <tr align="center">
+            <td>03.</td>
+            <td align="left" colspan="2">Akash Pattar</td>
+            <!-- colspan using two column merge -->
+            <td>+01-9123456780</td>
+            <td>At post: Moratgi Tq: Sindagi Dist: Vijayapur-586123</td>
+        </tr>
+    </table>
+    <h1>Login Page</h1>
+    <form action="Home.html" >
+        <div>
+            <input type="text" name="User Name" id="usr" placeholder="Enter User name" maxlength="20" minlength="3" required>
+        </div> 
+        <div>
+            <input type="password" name="Password" id="pwd" placeholder="Enter your Password" required>
+        </div> <br>
+        <div>
+            <button type="submit" id="btn">submit</button>
+            <button type="reset" id="rest">Reset</button>
+        </div> <br><br>
+        <h1>Registration Form </h1>
+        <div>
+            <label for="std name" >Student Name :</label>
+            <input type="text" name="" id="std name" maxlength="20">
+        </div><br>
+        <div>
+            <label for="fat name"> Father Name : </label>
+            <input type="text" id="fat name" maxlength="20">
+        </div><br>
+
+        <div>
+            <label for="gender">Gender :</label>
+            <label for="male">Male</label>
+            <input type="radio" name="male" id="male">
+            <label for="fmale">Female</label>
+            <input type="radio" name="" id="fmale">
+        </div><br>
+        <div>
+             <label for="">Caste :</label>
+             <label for="sc">SC</label>
+             <input type="checkbox" id="sc">
+             <label for="st">ST</label>
+             <input type="checkbox" id="st">
+             <label for="obc">OBC</label>
+             <input type="checkbox" name="" id="obc">
+             <label for="2b">2B</label>
+             <input type="checkbox" id="2b">
+             <label for="other">Others</label>
+             <input type="checkbox" name="" id="other">   
+        </div><br>
+        <div>
+            <label for="qulification">Qulification :</label>
+            <select name="qulification" id="qulification">
+                <option value="ba">BA</option>
+                <option value="bca">BCA</option>
+                <option value="bcom">B.Com</option>
+                <option value="bsc">Bsc</option>
+                <option value="puc">PUC</option>
+                <option value="sslc">SSLC</option>
+            </select>
+        </div>
+    </form> 
+
+</body>
+</html>

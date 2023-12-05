@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="logo.jpeg" alt="">
+    <table border="2px" width="60%">
+      <th> <a href="Home.html">Home</a></th>
+      <th> <a href="Location.html" target="_blank">Location</a></th>
+      <th> <a href="contect.html" target="_blank">Contact</a></th>
+      <th><a href="form.html" target="_blank">form</form></Form:get></a></th>
+    </table> 
+    <h1>Login Page</h1>
+    <form action="Home.html" method="get" >
+        <div>
+            <input type="text" name="User Name" id="usr" placeholder="Enter User name" maxlength="20" minlength="3" required>
+        </div> 
+        <div>
+            <input type="password" name="Password" id="pwd" placeholder="Enter your Password" required>
+        </div> <br>
+        <div>
+            <button type="submit" id="btn">submit</button>
+            <button type="reset" id="rest">Reset</button>
+        </div> <br><br>
+    </form>
+    <form action="Home.html" method="get">
+        <h1>Registration Form </h1>
+        <div>
+            <label for="std name" >Student Name :</label>
+            <input type="text" name="" id="std name" maxlength="20" required>
+        </div><br>
+        <div>
+            <label for="fat name"> Father Name : </label>
+            <input type="text" id="fat name" maxlength="20" required>
+        </div><br>
+        <div>
+            <label for="mobileno">Mobile Number :</label>
+            <input type="number" id="mobileno" required>
+        </div><br>
+        <div>
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" required>
+        </div><br>
+
+        <div>
+            <label for="gender">Gender :</label>
+            <label for="male">Male</label>
+            <input type="radio" name="male" id="male">
+            <label for="fmale">Female</label>
+            <input type="radio" name="" id="fmale">
+        </div><br>
+        <div>
+             <label for="">Caste :</label>
+             <label for="sc">SC</label>
+             <input type="checkbox" id="sc">
+             <label for="st">ST</label>
+             <input type="checkbox" id="st">
+             <label for="obc">OBC</label>
+             <input type="checkbox" name="" id="obc">
+             <label for="2b">2B</label>
+             <input type="checkbox" id="2b">
+             <label for="other">Others</label>
+             <input type="checkbox" name="" id="other">   
+        </div><br>
+        <div>
+            <label for="qulification">Qulification :</label>
+            <select name="qulification" id="qulification">
+                <option value="ba">BA</option>
+                <option value="bca">BCA</option>
+                <option value="bcom">B.Com</option>
+                <option value="bsc">Bsc</option>
+                <option value="puc">PUC</option>
+                <option value="sslc">SSLC</option>
+            </select>
+        </div> <br>
+        <div>
+            <label for="comment">Comment :</label>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="fileUpload"> Upload a File: </label>
+            <input type="file" name="fileUpload" id="fileUpload">
+        </div> <br>
+        <div>
+            <input type="submit" value="Sign Up">
+            <input type="reset" value="Reset">
+        </div>
+    </form> 
+
+</body>
+</html>
